@@ -1,14 +1,14 @@
- spring:
+spring:
   mvc:
     hiddenmethod:
       filter:
         enabled: true
  
- servlet:
+  servlet:
    multipart:
      max-file-size: 20MB
      max-request-size: 20MB
      
- image:
-   local: true
+image:
+  local: true
        
